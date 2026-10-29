@@ -1,0 +1,13 @@
+caso,categoria,tipo,prueba,instruccion,objeto,destino,resultado_esperado
+SHAPE_LING_01,canonical_implicit,positive,cubo_forma,put the orange cube in the container that matches its shape,orange_cube,square_box,SELECT_PAIR
+SHAPE_LING_02,paraphrase_implicit,positive,cubo_forma,place the orange cube in the container with the matching shape,orange_cube,square_box,SELECT_PAIR
+SHAPE_LING_03,canonical_explicit,positive,cubo_explicito,put the orange cube in the square box,orange_cube,square_box,SELECT_PAIR
+SHAPE_LING_04,alias_explicit,positive,cubo_explicito,place the orange block inside the square container,orange_cube,square_box,SELECT_PAIR
+SHAPE_LING_05,canonical_implicit,positive,cilindro_forma,put the white cylinder in the container that matches its shape,white_cylinder,circular_box,SELECT_PAIR
+SHAPE_LING_06,paraphrase_implicit,positive,cilindro_forma,place the white cylinder in the container with the matching shape,white_cylinder,circular_box,SELECT_PAIR
+SHAPE_LING_07,canonical_explicit,positive,cilindro_explicito,put the white cylinder in the circular box,white_cylinder,circular_box,SELECT_PAIR
+SHAPE_LING_08,alias_explicit,positive,cilindro_explicito,place the white cylindrical object inside the round container,white_cylinder,circular_box,SELECT_PAIR
+SHAPE_LING_09,negative_ambiguous_object,negative,ambiguous_object,put the object in the container that matches its shape,,,REJECT
+SHAPE_LING_10,negative_ambiguous_target,negative,ambiguous_target,put the orange cube in the black container,,,REJECT
+SHAPE_LING_11,negative_contradiction,negative,contradiction,put the orange cube in the circular container that matches its shape,,,REJECT
+SHAPE_LING_12,negative_absent_object,negative,absent_object,put the blue sphere in the square box,,,REJECT

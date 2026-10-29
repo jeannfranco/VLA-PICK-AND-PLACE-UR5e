@@ -1,0 +1,51 @@
+caso,categoria,instruccion,espera_exito,objeto,destino,relacion
+C01_CANONICAL,canonical,put the white cylinder in the center of the blue zone,True,white_cylinder,blue_zone,center
+C01_PARAPHRASE,combined_alias,move the white cylindrical object to the middle of the blue area,True,white_cylinder,blue_zone,center
+C01_COMMAND_ALIAS,command_alias,place the white cylinder at the centre of the blue target area,True,white_cylinder,blue_zone,center
+NEG_AMBIGUOUS_TARGET,ambiguous,put the white cylinder in the zone,False,white_cylinder,,
+NEG_UNSUPPORTED_TARGET,unsupported,put the white cylinder in the green zone,False,white_cylinder,,
+C02_CANONICAL,canonical,put the white cylinder on the left side of the yellow zone,True,white_cylinder,yellow_zone,left
+C02_OBJECT_ALIAS,object_alias,put the cylindrical white object on the left side of the yellow zone,True,white_cylinder,yellow_zone,left
+C02_RELATION_ALIAS,relation_alias,place the white cylinder on the left-hand side of the yellow area,True,white_cylinder,yellow_zone,left
+C02_TARGET_ALIAS,target_alias,move the white cylinder to the left of the yellow target area,True,white_cylinder,yellow_zone,left
+C02_RIGHT_CONTROL,direction_control,put the white cylinder on the right side of the yellow zone,True,white_cylinder,yellow_zone,right
+C03_CANONICAL,canonical,place the orange cube inside the right side of the blue zone,True,orange_cube,blue_zone,right
+C03_OBJECT_ALIAS,object_alias,place the orange block inside the right side of the blue zone,True,orange_cube,blue_zone,right
+C03_RELATION_ALIAS,relation_alias,move the orange cube into the right-hand side of the blue area,True,orange_cube,blue_zone,right
+C03_TARGET_ALIAS,target_alias,put the orange cube on the right side of the blue target area,True,orange_cube,blue_zone,right
+C03_LEFT_CONTROL,direction_control,place the orange cube inside the left side of the blue zone,True,orange_cube,blue_zone,left
+C04_CANONICAL,canonical,put the orange cube in the blue zone,True,orange_cube,blue_zone,
+C04_PARAPHRASE,combined_alias,move the orange block into the blue area,True,orange_cube,blue_zone,
+C04_TARGET_ALIAS,target_alias,put the orange die inside the blue target area,True,orange_cube,blue_zone,
+NEG_AMBIGUOUS_OBJECT,ambiguous,put the object in the blue zone,False,,blue_zone,
+NEG_UNSUPPORTED_OBJECT,unsupported,put the purple cube in the blue zone,False,,blue_zone,
+C05_CANONICAL,canonical,move the white cylinder to the right-hand side of the yellow zone,True,white_cylinder,yellow_zone,right
+C05_OBJECT_ALIAS,object_alias,move the white cylindrical object to the right-hand side of the yellow zone,True,white_cylinder,yellow_zone,right
+C05_RELATION_ALIAS,relation_alias,place the white cylinder on the right side of the yellow area,True,white_cylinder,yellow_zone,right
+C05_TARGET_ALIAS,target_alias,move the white cylinder to the right of the yellow target area,True,white_cylinder,yellow_zone,right
+C05_LEFT_CONTROL,direction_control,move the white cylinder to the left side of the yellow zone,True,white_cylinder,yellow_zone,left
+C06_CANONICAL,canonical,place the orange die near the rear side of the yellow area,True,orange_cube,yellow_zone,back
+C06_OBJECT_ALIAS,object_alias,place the orange cube near the rear side of the yellow area,True,orange_cube,yellow_zone,back
+C06_RELATION_ALIAS,relation_alias,move the orange die to the back side of the yellow zone,True,orange_cube,yellow_zone,back
+C06_TARGET_ALIAS,target_alias,place the orange cube near the back side of the yellow target area,True,orange_cube,yellow_zone,back
+C06_FRONT_CONTROL,direction_control,place the orange die near the front side of the yellow area,True,orange_cube,yellow_zone,front
+CASE07_CANONICAL,canonical,place the white cylinder near the front side of the yellow zone,True,white_cylinder,yellow_zone,front
+CASE07_OBJECT_ALIAS,object_alias,place the cylindrical white object near the front side of the yellow zone,True,white_cylinder,yellow_zone,front
+CASE07_TARGET_ALIAS,target_alias,place the white cylinder near the front side of the yellow target area,True,white_cylinder,yellow_zone,front
+CASE07_RELATION_ALIAS,relation_alias,place the white cylinder near the front edge of the yellow zone,True,white_cylinder,yellow_zone,front
+CASE07_AMBIGUOUS_OBJECT,ambiguous,place the object near the front side of the yellow zone,False,,yellow_zone,front
+CASE08_CANONICAL,canonical,place the white cylindrical object inside the right side of the yellow target area,True,white_cylinder,yellow_zone,right
+CASE08_OBJECT_ALIAS,object_alias,place the white cylinder inside the right side of the yellow target area,True,white_cylinder,yellow_zone,right
+CASE08_TARGET_ALIAS,target_alias,place the white cylindrical object inside the right side of the yellow zone,True,white_cylinder,yellow_zone,right
+CASE08_RELATION_ALIAS,relation_alias,place the white cylindrical object inside the right-hand side of the yellow target area,True,white_cylinder,yellow_zone,right
+CASE08_AMBIGUOUS_TARGET,ambiguous,place the white cylindrical object inside the right side of the target area,False,white_cylinder,,right
+CASE09_CANONICAL,canonical,place the orange block near the back side of the blue target area,True,orange_cube,blue_zone,back
+CASE09_OBJECT_ALIAS,object_alias,place the orange cube near the back side of the blue target area,True,orange_cube,blue_zone,back
+CASE09_TARGET_ALIAS,target_alias,place the orange block near the back side of the blue zone,True,orange_cube,blue_zone,back
+CASE09_RELATION_ALIAS,relation_alias,place the orange block near the rear side of the blue target area,True,orange_cube,blue_zone,back
+CASE09_AMBIGUOUS_OBJECT,ambiguous,place the object near the back side of the blue target area,False,,blue_zone,back
+CASE10_CANONICAL,canonical,place the cylindrical white object near the back side of the blue region,True,white_cylinder,blue_zone,back
+CASE10_OBJECT_ALIAS,object_alias,place the white cylinder near the back side of the blue region,True,white_cylinder,blue_zone,back
+CASE10_TARGET_ALIAS,target_alias,place the cylindrical white object near the back side of the blue zone,True,white_cylinder,blue_zone,back
+CASE10_RELATION_ALIAS,relation_alias,place the cylindrical white object near the rear side of the blue region,True,white_cylinder,blue_zone,back
+CASE10_AMBIGUOUS_TARGET,ambiguous,place the cylindrical white object near the back side of the zone,False,white_cylinder,,back

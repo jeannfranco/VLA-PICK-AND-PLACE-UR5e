@@ -1,0 +1,4 @@
+modelo,forma_salida_nativa,horizonte_accion,dimensiones_por_accion,episodios,grounding_correcto,movimiento_completado_con_grounding,cumplimiento_estricto_con_grounding,movimiento_condicionado_grounding_pct,estricto_condicionado_grounding_pct,error_pick_medio_m,error_destino_xy_medio_m,error_z_medio_m,longitud_xyz_por_transicion,A_PI_xyz,A_VI_xyz,A_AI_xyz,metricas_dinamicas_chunk
+OpenVLA + SigLIP,"(1,7)",1,7,10,10,9,5,90.0,50.0,0.006289,0.009796,0.031724,,,,,N/A: salida de un único paso
+π0-DROID,"(10,8)",10,8,10,7,7,5,100.0,71.4,0.005448,0.013453,0.034815,0.005984,0.002996,0.002678,0.004733,calculadas sobre el chunk nativo
+π0.5-DROID,"(15,8)",15,8,10,7,5,2,71.4,28.6,0.00647,0.0097,0.03038,0.058653,0.027975,0.028509,0.048151,calculadas sobre el chunk nativo

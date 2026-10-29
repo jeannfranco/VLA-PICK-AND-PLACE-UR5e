@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 530">
+<rect width="100%" height="100%" fill="white"/>
+<text x="600.0" y="32" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">Resultados físicos por modelo</text>
+<line x1="75" y1="430.00" x2="1170" y2="430.00" stroke="#d9dfe7" stroke-width="1"/>
+<text x="63" y="434.00" text-anchor="end" font-family="Arial" font-size="12">0%</text>
+<line x1="75" y1="348.75" x2="1170" y2="348.75" stroke="#d9dfe7" stroke-width="1"/>
+<text x="63" y="352.75" text-anchor="end" font-family="Arial" font-size="12">25%</text>
+<line x1="75" y1="267.50" x2="1170" y2="267.50" stroke="#d9dfe7" stroke-width="1"/>
+<text x="63" y="271.50" text-anchor="end" font-family="Arial" font-size="12">50%</text>
+<line x1="75" y1="186.25" x2="1170" y2="186.25" stroke="#d9dfe7" stroke-width="1"/>
+<text x="63" y="190.25" text-anchor="end" font-family="Arial" font-size="12">75%</text>
+<line x1="75" y1="105.00" x2="1170" y2="105.00" stroke="#d9dfe7" stroke-width="1"/>
+<text x="63" y="109.00" text-anchor="end" font-family="Arial" font-size="12">100%</text>
+<rect x="75" y="73" width="14" height="14" rx="2" fill="#315a83"/>
+<text x="96" y="85" font-family="Arial" font-size="12">Éxito operacional</text>
+<rect x="305" y="73" width="14" height="14" rx="2" fill="#d47a24"/>
+<text x="326" y="85" font-family="Arial" font-size="12">Grounding correcto</text>
+<rect x="535" y="73" width="14" height="14" rx="2" fill="#3f8758"/>
+<text x="556" y="85" font-family="Arial" font-size="12">Cumplimiento estricto</text>
+<rect x="175.00" y="137.50" width="48.00" height="292.50" rx="4" fill="#315a83"/>
+<text x="199.00" y="130.50" text-anchor="middle" font-family="Arial" font-size="11">90.0%</text>
+<rect x="230.00" y="105.00" width="48.00" height="325.00" rx="4" fill="#d47a24"/>
+<text x="254.00" y="102.00" text-anchor="middle" font-family="Arial" font-size="11">100.0%</text>
+<rect x="285.00" y="267.50" width="48.00" height="162.50" rx="4" fill="#3f8758"/>
+<text x="309.00" y="260.50" text-anchor="middle" font-family="Arial" font-size="11">50.0%</text>
+<text x="257.50" y="468" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">OpenVLA + SigLIP</text>
+<rect x="540.00" y="202.50" width="48.00" height="227.50" rx="4" fill="#315a83"/>
+<text x="564.00" y="195.50" text-anchor="middle" font-family="Arial" font-size="11">70.0%</text>
+<rect x="595.00" y="202.50" width="48.00" height="227.50" rx="4" fill="#d47a24"/>
+<text x="619.00" y="195.50" text-anchor="middle" font-family="Arial" font-size="11">70.0%</text>
+<rect x="650.00" y="267.50" width="48.00" height="162.50" rx="4" fill="#3f8758"/>
+<text x="674.00" y="260.50" text-anchor="middle" font-family="Arial" font-size="11">50.0%</text>
+<text x="622.50" y="468" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">π0-DROID</text>
+<rect x="905.00" y="267.50" width="48.00" height="162.50" rx="4" fill="#315a83"/>
+<text x="929.00" y="260.50" text-anchor="middle" font-family="Arial" font-size="11">50.0%</text>
+<rect x="960.00" y="202.50" width="48.00" height="227.50" rx="4" fill="#d47a24"/>
+<text x="984.00" y="195.50" text-anchor="middle" font-family="Arial" font-size="11">70.0%</text>
+<rect x="1015.00" y="365.00" width="48.00" height="65.00" rx="4" fill="#3f8758"/>
+<text x="1039.00" y="358.00" text-anchor="middle" font-family="Arial" font-size="11">20.0%</text>
+<text x="987.50" y="468" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">π0.5-DROID</text>
+</svg>

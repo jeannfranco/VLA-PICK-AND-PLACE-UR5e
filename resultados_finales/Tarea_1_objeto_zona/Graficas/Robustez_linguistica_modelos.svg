@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 530">
+<rect width="100%" height="100%" fill="white"/>
+<text x="600.0" y="32" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold">Robustez lingüística: 150 replays</text>
+<text x="600.0" y="57" text-anchor="middle" font-family="Arial" font-size="12" fill="#555">Relaciones espaciales todavía provisionales</text>
+<line x1="75" y1="430.00" x2="1170" y2="430.00" stroke="#d9dfe7" stroke-width="1"/>
+<text x="63" y="434.00" text-anchor="end" font-family="Arial" font-size="12">0%</text>
+<line x1="75" y1="348.75" x2="1170" y2="348.75" stroke="#d9dfe7" stroke-width="1"/>
+<text x="63" y="352.75" text-anchor="end" font-family="Arial" font-size="12">25%</text>
+<line x1="75" y1="267.50" x2="1170" y2="267.50" stroke="#d9dfe7" stroke-width="1"/>
+<text x="63" y="271.50" text-anchor="end" font-family="Arial" font-size="12">50%</text>
+<line x1="75" y1="186.25" x2="1170" y2="186.25" stroke="#d9dfe7" stroke-width="1"/>
+<text x="63" y="190.25" text-anchor="end" font-family="Arial" font-size="12">75%</text>
+<line x1="75" y1="105.00" x2="1170" y2="105.00" stroke="#d9dfe7" stroke-width="1"/>
+<text x="63" y="109.00" text-anchor="end" font-family="Arial" font-size="12">100%</text>
+<rect x="75" y="73" width="14" height="14" rx="2" fill="#315a83"/>
+<text x="96" y="85" font-family="Arial" font-size="12">Pareja positiva</text>
+<rect x="305" y="73" width="14" height="14" rx="2" fill="#d47a24"/>
+<text x="326" y="85" font-family="Arial" font-size="12">Relación espacial</text>
+<rect x="535" y="73" width="14" height="14" rx="2" fill="#3f8758"/>
+<text x="556" y="85" font-family="Arial" font-size="12">Rechazo negativo</text>
+<rect x="765" y="73" width="14" height="14" rx="2" fill="#7a5b9a"/>
+<text x="786" y="85" font-family="Arial" font-size="12">Éxito completo</text>
+<rect x="147.50" y="143.69" width="48.00" height="286.31" rx="4" fill="#315a83"/>
+<text x="171.50" y="136.69" text-anchor="middle" font-family="Arial" font-size="11">88.1%</text>
+<rect x="202.50" y="396.67" width="48.00" height="33.33" rx="4" fill="#d47a24"/>
+<text x="226.50" y="389.67" text-anchor="middle" font-family="Arial" font-size="11">10.3%</text>
+<rect x="257.50" y="105.00" width="48.00" height="325.00" rx="4" fill="#3f8758"/>
+<text x="281.50" y="102.00" text-anchor="middle" font-family="Arial" font-size="11">100.0%</text>
+<rect x="312.50" y="339.00" width="48.00" height="91.00" rx="4" fill="#7a5b9a"/>
+<text x="336.50" y="332.00" text-anchor="middle" font-family="Arial" font-size="11">28.0%</text>
+<text x="257.50" y="468" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">OpenVLA + SigLIP</text>
+<rect x="512.50" y="190.12" width="48.00" height="239.88" rx="4" fill="#315a83"/>
+<text x="536.50" y="183.12" text-anchor="middle" font-family="Arial" font-size="11">73.8%</text>
+<rect x="567.50" y="396.67" width="48.00" height="33.33" rx="4" fill="#d47a24"/>
+<text x="591.50" y="389.67" text-anchor="middle" font-family="Arial" font-size="11">10.3%</text>
+<rect x="622.50" y="389.38" width="48.00" height="40.62" rx="4" fill="#3f8758"/>
+<text x="646.50" y="382.38" text-anchor="middle" font-family="Arial" font-size="11">12.5%</text>
+<rect x="677.50" y="384.50" width="48.00" height="45.50" rx="4" fill="#7a5b9a"/>
+<text x="701.50" y="377.50" text-anchor="middle" font-family="Arial" font-size="11">14.0%</text>
+<text x="622.50" y="468" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">π0-DROID</text>
+<rect x="877.50" y="313.93" width="48.00" height="116.07" rx="4" fill="#315a83"/>
+<text x="901.50" y="306.93" text-anchor="middle" font-family="Arial" font-size="11">35.7%</text>
+<rect x="932.50" y="396.67" width="48.00" height="33.33" rx="4" fill="#d47a24"/>
+<text x="956.50" y="389.67" text-anchor="middle" font-family="Arial" font-size="11">10.3%</text>
+<rect x="987.50" y="308.12" width="48.00" height="121.88" rx="4" fill="#3f8758"/>
+<text x="1011.50" y="301.12" text-anchor="middle" font-family="Arial" font-size="11">37.5%</text>
+<rect x="1042.50" y="371.50" width="48.00" height="58.50" rx="4" fill="#7a5b9a"/>
+<text x="1066.50" y="364.50" text-anchor="middle" font-family="Arial" font-size="11">18.0%</text>
+<text x="987.50" y="468" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">π0.5-DROID</text>
+</svg>

@@ -1,0 +1,45 @@
+RESULTADOS DEL TFG
+
+Este paquete contiene únicamente los resultados consolidados necesarios para
+revisar y redactar el capítulo de Resultados.
+
+Cada tarea utiliza la misma estructura:
+- Resumen.txt
+- Resultados_modelos.csv
+- Resultados_casos.csv
+- Resultados_linguisticos.csv
+- Ablacion_SigLIP.csv
+- Graficas/
+
+Se han eliminado deliberadamente:
+- logs de ejecución;
+- archivos .rc;
+- JSON intermedios;
+- anexos repetidos en carpeta y en ZIP;
+- copias de campañas ya incluidas en un consolidado posterior;
+- carpetas de fuentes y rutas internas del proyecto;
+- archivos de auditoría que duplicaban las tablas globales.
+
+Los artefactos originales y los logs deben conservarse en el repositorio de trabajo,
+pero no forman parte de este paquete reducido de resultados.
+
+MÉTRICAS DE ACCIÓN Y CHUNKS
+
+Se recuperaron las acciones nativas de los 66 episodios físicos canónicos mediante
+el archivo <modelo>_raw_output.json situado en la raíz de cada run. No quedaron
+episodios sin resolver.
+
+Cada tarea incluye:
+- Metricas_accion.csv
+- Metricas_chunks_resumen.csv
+- Metricas_chunks_casos.csv
+- Graficas/Metricas_accion.svg
+- Graficas/Metricas_chunks.svg
+
+OpenVLA genera una salida de un único paso (1×7), por lo que no admite métricas
+temporales internas. π0 y π0.5 sí permiten calcular diferencias de primer, segundo
+y tercer orden sobre XYZ. En las dos tareas, π0.5 mostró una variación interna y una longitud por transición muy superiores a π0. Estas diferencias describen el comportamiento temporal de las salidas, pero por sí solas no permiten determinar cuánto contribuyeron al resultado físico ni establecer una relación causal con el grounding o con la adaptación de control utilizada.
+
+Las métricas se expresan en unidades nativas. No deben interpretarse como metros
+ni utilizarse para comparar directamente la escala absoluta de OpenVLA con la
+familia π. La comparación temporal principal es π0 frente a π0.5.

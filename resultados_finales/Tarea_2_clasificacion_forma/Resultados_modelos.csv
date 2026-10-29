@@ -1,0 +1,4 @@
+modelo,episodios_fisicos,grounding_fisico,colocacion_correcta,cumplimiento_estricto,replays_linguisticos,parejas_positivas_correctas,negativas_rechazadas,fallos_conexion_en_metricas,ablacion_sin_siglip
+OpenVLA,12,11/12 (91.7%),8/12 (66.7%),8/12 (66.7%),12,7/8 (87.5%),4/4 (100.0%),0,3/12 (25.0%)
+π0-DROID,12,5/12 (41.7%),4/12 (33.3%),3/12 (25.0%),12,4/8 (50.0%),1/4 (25.0%),0,
+π0.5-DROID,12,3/12 (25.0%),2/12 (16.7%),2/12 (16.7%),12,1/8 (12.5%),2/4 (50.0%),0,

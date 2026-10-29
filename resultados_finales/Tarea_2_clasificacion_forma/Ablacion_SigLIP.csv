@@ -1,0 +1,13 @@
+replay,caso_fisico,layout,modelo,prueba,tipo_instruccion,tipo_objeto,instruccion,objeto_esperado,destino_esperado,objeto_seleccionado,destino_seleccionado,pareja_correcta,resultado,margen_consenso,codigo_salida
+REPLAY_01,CASE_01,1,openvla,cubo_forma,implicit,cube,put the orange cube in the container that matches its shape,orange_cube,square_box,white_cylinder,circular_box,no,FAIL_GROUNDING_REPLAY,0.1052,1
+REPLAY_02,CASE_02,1,openvla,cubo_explicito,explicit,cube,put the orange cube in the square box,orange_cube,square_box,orange_cube,circular_box,no,FAIL_GROUNDING_REPLAY,0.8662,1
+REPLAY_03,CASE_03,1,openvla,cilindro_forma,implicit,cylinder,put the white cylinder in the container that matches its shape,white_cylinder,circular_box,,,no,FAIL_GROUNDING_REPLAY,0.1786,1
+REPLAY_04,CASE_04,1,openvla,cilindro_explicito,explicit,cylinder,put the white cylinder in the circular box,white_cylinder,circular_box,orange_cube,square_box,no,FAIL_GROUNDING_REPLAY,0.1328,1
+REPLAY_05,CASE_13,2,openvla,cubo_forma,implicit,cube,put the orange cube in the container that matches its shape,orange_cube,square_box,orange_cube,square_box,sí,PASS_GROUNDING_REPLAY,,0
+REPLAY_06,CASE_14,2,openvla,cubo_explicito,explicit,cube,put the orange cube in the square box,orange_cube,square_box,white_cylinder,square_box,no,FAIL_GROUNDING_REPLAY,0.212,1
+REPLAY_07,CASE_15,2,openvla,cilindro_forma,implicit,cylinder,put the white cylinder in the container that matches its shape,white_cylinder,circular_box,white_cylinder,square_box,no,FAIL_GROUNDING_REPLAY,0.6686,1
+REPLAY_08,CASE_16,2,openvla,cilindro_explicito,explicit,cylinder,put the white cylinder in the circular box,white_cylinder,circular_box,white_cylinder,circular_box,sí,PASS_GROUNDING_REPLAY,0.5217,0
+REPLAY_09,CASE_25,3,openvla,cubo_forma,implicit,cube,put the orange cube in the container that matches its shape,orange_cube,square_box,orange_cube,circular_box,no,FAIL_GROUNDING_REPLAY,0.262,1
+REPLAY_10,CASE_26,3,openvla,cubo_explicito,explicit,cube,put the orange cube in the square box,orange_cube,square_box,white_cylinder,square_box,no,FAIL_GROUNDING_REPLAY,0.2728,1
+REPLAY_11,CASE_27,3,openvla,cilindro_forma,implicit,cylinder,put the white cylinder in the container that matches its shape,white_cylinder,circular_box,white_cylinder,circular_box,sí,PASS_GROUNDING_REPLAY,0.0868,0
+REPLAY_12,CASE_28,3,openvla,cilindro_explicito,explicit,cylinder,put the white cylinder in the circular box,white_cylinder,circular_box,orange_cube,circular_box,no,FAIL_GROUNDING_REPLAY,0.0613,1

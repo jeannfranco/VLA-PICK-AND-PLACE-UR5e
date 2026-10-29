@@ -1,0 +1,32 @@
+TAREA 1: OBJETO HACIA ZONA
+
+Campaña física
+- Episodios: 30
+- Éxito operacional: 21/30 (70,0 %)
+- Cumplimiento estricto: 12/30 (40,0 %)
+
+Robustez lingüística
+- Replays consolidados: 150
+- OpenVLA + SigLIP: 37/42 parejas positivas y 8/8 negativas rechazadas
+- π0-DROID: 31/42 parejas positivas y 1/8 negativas rechazadas
+- π0.5-DROID: 15/42 parejas positivas y 3/8 negativas rechazadas
+
+Nota
+La métrica de relación espacial del consolidado lingüístico de 150 replays
+permanece provisional. La campaña de 90 replays no se conserva aparte porque
+ya está incluida en este consolidado.
+
+Métricas de acción y chunks
+- Se recuperaron y verificaron las acciones nativas de los 30 episodios.
+- OpenVLA produce un único paso (1×7); A-PI, A-VI y A-AI no son aplicables internamente.
+- En XYZ, π0.5 presentó respecto a π0 una A-PI 9.3 veces mayor,
+  una A-VI 10.6 veces mayor y una A-AI 10.2 veces mayor.
+- La longitud XYZ por transición de π0.5 fue 9.8 veces la de π0,
+  por lo que la diferencia no se explica únicamente por su horizonte de 15 pasos.
+- En π0, los éxitos estrictos redujeron la longitud del chunk un
+  21.6 % y A-PI un
+  22.1 % frente a los casos sin éxito.
+- En π0.5 no apareció una relación monotónica equivalente en esta tarea;
+  solo hubo dos éxitos estrictos, por lo que no debe inferirse causalidad.
+- Las magnitudes están expresadas en unidades nativas de cada política.
+  La comparación directa de escala se limita principalmente a π0 frente a π0.5.

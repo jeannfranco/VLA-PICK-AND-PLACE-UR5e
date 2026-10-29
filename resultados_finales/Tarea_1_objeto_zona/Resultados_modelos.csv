@@ -1,0 +1,4 @@
+modelo,episodios_fisicos,exito_operacional,grounding_fisico,movimiento_completado,verificacion_final,cumplimiento_estricto,participacion_visual,participacion_linguistica,relacion_fisica,parejas_correctas_150,relaciones_correctas_150_provisional,negativas_rechazadas_150
+OpenVLA + SigLIP,10,9/10,10/10,10/10,9/10,5/10,10/10,10/10,5/9,37/42,4/39,8/8
+π0-DROID,10,7/10,7/10,7/10,7/10,5/10,10/10,10/10,4/6,31/42,4/39,1/8
+π0.5-DROID,10,5/10,7/10,7/10,6/10,2/10,10/10,10/10,3/7,15/42,4/39,3/8

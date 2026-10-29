@@ -1,0 +1,151 @@
+campana,modelo,caso,categoria,instruccion,caso_positivo,pareja_esperada,pareja_seleccionada,pareja_correcta,relacion_esperada,relacion_obtenida,relacion_correcta,negativa_rechazada,exito_linguistico_completo,codigo_salida
+main_90_v1,pi0_droid,C01_CANONICAL,canonical,put the white cylinder in the center of the blue zone,sí,white_cylinder->blue_zone,white_cylinder->blue_zone,sí,center,,no,,no,0
+main_90_v1,pi0_droid,C01_PARAPHRASE,combined_alias,move the white cylindrical object to the middle of the blue area,sí,white_cylinder->blue_zone,orange_cube->yellow_zone,no,center,,no,,no,1
+main_90_v1,pi0_droid,C01_COMMAND_ALIAS,command_alias,place the white cylinder at the centre of the blue target area,sí,white_cylinder->blue_zone,white_cylinder->blue_zone,sí,center,,no,,no,0
+main_90_v1,pi0_droid,NEG_AMBIGUOUS_TARGET,ambiguous,put the white cylinder in the zone,no,,white_cylinder->yellow_zone,,,,,,no,0
+main_90_v1,pi0_droid,NEG_UNSUPPORTED_TARGET,unsupported,put the white cylinder in the green zone,no,,white_cylinder->blue_zone,,,,,,no,0
+main_90_v1,pi0_droid,C02_CANONICAL,canonical,put the white cylinder on the left side of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,left,,sí,,sí,0
+main_90_v1,pi0_droid,C02_OBJECT_ALIAS,object_alias,put the cylindrical white object on the left side of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,left,,sí,,sí,0
+main_90_v1,pi0_droid,C02_RELATION_ALIAS,relation_alias,place the white cylinder on the left-hand side of the yellow area,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,left,,sí,,sí,0
+main_90_v1,pi0_droid,C02_TARGET_ALIAS,target_alias,move the white cylinder to the left of the yellow target area,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,left,,no,,no,0
+main_90_v1,pi0_droid,C02_RIGHT_CONTROL,direction_control,put the white cylinder on the right side of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,right,,no,,no,0
+main_90_v1,pi0_droid,C03_CANONICAL,canonical,place the orange cube inside the right side of the blue zone,sí,orange_cube->blue_zone,orange_cube->yellow_zone,no,right,,no,,no,1
+main_90_v1,pi0_droid,C03_OBJECT_ALIAS,object_alias,place the orange block inside the right side of the blue zone,sí,orange_cube->blue_zone,orange_cube->blue_zone,sí,right,,no,,no,0
+main_90_v1,pi0_droid,C03_RELATION_ALIAS,relation_alias,move the orange cube into the right-hand side of the blue area,sí,orange_cube->blue_zone,white_cylinder->yellow_zone,no,right,,no,,no,1
+main_90_v1,pi0_droid,C03_TARGET_ALIAS,target_alias,put the orange cube on the right side of the blue target area,sí,orange_cube->blue_zone,orange_cube->yellow_zone,no,right,,no,,no,1
+main_90_v1,pi0_droid,C03_LEFT_CONTROL,direction_control,place the orange cube inside the left side of the blue zone,sí,orange_cube->blue_zone,orange_cube->yellow_zone,no,left,,no,,no,1
+main_90_v1,pi0_droid,C04_CANONICAL,canonical,put the orange cube in the blue zone,sí,orange_cube->blue_zone,orange_cube->blue_zone,sí,,,sí,,sí,0
+main_90_v1,pi0_droid,C04_PARAPHRASE,combined_alias,move the orange block into the blue area,sí,orange_cube->blue_zone,white_cylinder->yellow_zone,no,,,sí,,no,1
+main_90_v1,pi0_droid,C04_TARGET_ALIAS,target_alias,put the orange die inside the blue target area,sí,orange_cube->blue_zone,orange_cube->blue_zone,sí,,,sí,,sí,0
+main_90_v1,pi0_droid,NEG_AMBIGUOUS_OBJECT,ambiguous,put the object in the blue zone,no,,orange_cube->blue_zone,,,,,no,no,0
+main_90_v1,pi0_droid,NEG_UNSUPPORTED_OBJECT,unsupported,put the purple cube in the blue zone,no,,white_cylinder->yellow_zone,,,,,sí,sí,1
+main_90_v1,pi0_droid,C05_CANONICAL,canonical,move the white cylinder to the right-hand side of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,right,,no,,no,0
+main_90_v1,pi0_droid,C05_OBJECT_ALIAS,object_alias,move the white cylindrical object to the right-hand side of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,right,,no,,no,0
+main_90_v1,pi0_droid,C05_RELATION_ALIAS,relation_alias,place the white cylinder on the right side of the yellow area,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,right,,no,,no,0
+main_90_v1,pi0_droid,C05_TARGET_ALIAS,target_alias,move the white cylinder to the right of the yellow target area,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,right,,no,,no,0
+main_90_v1,pi0_droid,C05_LEFT_CONTROL,direction_control,move the white cylinder to the left side of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,left,,sí,,sí,0
+main_90_v1,pi0_droid,C06_CANONICAL,canonical,place the orange die near the rear side of the yellow area,sí,orange_cube->yellow_zone,orange_cube->yellow_zone,sí,back,,no,,no,0
+main_90_v1,pi0_droid,C06_OBJECT_ALIAS,object_alias,place the orange cube near the rear side of the yellow area,sí,orange_cube->yellow_zone,orange_cube->yellow_zone,sí,back,,no,,no,0
+main_90_v1,pi0_droid,C06_RELATION_ALIAS,relation_alias,move the orange die to the back side of the yellow zone,sí,orange_cube->yellow_zone,orange_cube->yellow_zone,sí,back,,no,,no,0
+main_90_v1,pi0_droid,C06_TARGET_ALIAS,target_alias,place the orange cube near the back side of the yellow target area,sí,orange_cube->yellow_zone,orange_cube->yellow_zone,sí,back,,no,,no,0
+main_90_v1,pi0_droid,C06_FRONT_CONTROL,direction_control,place the orange die near the front side of the yellow area,sí,orange_cube->yellow_zone,white_cylinder->blue_zone,no,front,,no,,no,1
+main_90_v1,pi05_droid,C01_CANONICAL,canonical,put the white cylinder in the center of the blue zone,sí,white_cylinder->blue_zone,orange_cube->blue_zone,no,center,,no,,no,1
+main_90_v1,pi05_droid,C01_PARAPHRASE,combined_alias,move the white cylindrical object to the middle of the blue area,sí,white_cylinder->blue_zone,orange_cube->blue_zone,no,center,,no,,no,0
+main_90_v1,pi05_droid,C01_COMMAND_ALIAS,command_alias,place the white cylinder at the centre of the blue target area,sí,white_cylinder->blue_zone,orange_cube->blue_zone,no,center,,no,,no,1
+main_90_v1,pi05_droid,NEG_AMBIGUOUS_TARGET,ambiguous,put the white cylinder in the zone,no,,orange_cube->yellow_zone,,,,,sí,sí,1
+main_90_v1,pi05_droid,NEG_UNSUPPORTED_TARGET,unsupported,put the white cylinder in the green zone,no,,orange_cube->blue_zone,,,,,sí,sí,1
+main_90_v1,pi05_droid,C02_CANONICAL,canonical,put the white cylinder on the left side of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,left,,sí,,sí,0
+main_90_v1,pi05_droid,C02_OBJECT_ALIAS,object_alias,put the cylindrical white object on the left side of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,left,,sí,,sí,0
+main_90_v1,pi05_droid,C02_RELATION_ALIAS,relation_alias,place the white cylinder on the left-hand side of the yellow area,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,left,,sí,,sí,0
+main_90_v1,pi05_droid,C02_TARGET_ALIAS,target_alias,move the white cylinder to the left of the yellow target area,sí,white_cylinder->yellow_zone,white_cylinder->blue_zone,no,left,,no,,no,1
+main_90_v1,pi05_droid,C02_RIGHT_CONTROL,direction_control,put the white cylinder on the right side of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,right,,no,,no,0
+main_90_v1,pi05_droid,C03_CANONICAL,canonical,place the orange cube inside the right side of the blue zone,sí,orange_cube->blue_zone,orange_cube->blue_zone,sí,right,,no,,no,0
+main_90_v1,pi05_droid,C03_OBJECT_ALIAS,object_alias,place the orange block inside the right side of the blue zone,sí,orange_cube->blue_zone,orange_cube->blue_zone,sí,right,,no,,no,0
+main_90_v1,pi05_droid,C03_RELATION_ALIAS,relation_alias,move the orange cube into the right-hand side of the blue area,sí,orange_cube->blue_zone,orange_cube->yellow_zone,no,right,,no,,no,1
+main_90_v1,pi05_droid,C03_TARGET_ALIAS,target_alias,put the orange cube on the right side of the blue target area,sí,orange_cube->blue_zone,orange_cube->yellow_zone,no,right,,no,,no,1
+main_90_v1,pi05_droid,C03_LEFT_CONTROL,direction_control,place the orange cube inside the left side of the blue zone,sí,orange_cube->blue_zone,orange_cube->blue_zone,sí,left,,sí,,sí,0
+main_90_v1,pi05_droid,C04_CANONICAL,canonical,put the orange cube in the blue zone,sí,orange_cube->blue_zone,orange_cube->blue_zone,sí,,,sí,,sí,0
+main_90_v1,pi05_droid,C04_PARAPHRASE,combined_alias,move the orange block into the blue area,sí,orange_cube->blue_zone,orange_cube->blue_zone,sí,,,sí,,sí,0
+main_90_v1,pi05_droid,C04_TARGET_ALIAS,target_alias,put the orange die inside the blue target area,sí,orange_cube->blue_zone,white_cylinder->yellow_zone,no,,,sí,,no,1
+main_90_v1,pi05_droid,NEG_AMBIGUOUS_OBJECT,ambiguous,put the object in the blue zone,no,,orange_cube->blue_zone,,,,,no,no,0
+main_90_v1,pi05_droid,NEG_UNSUPPORTED_OBJECT,unsupported,put the purple cube in the blue zone,no,,white_cylinder->yellow_zone,,,,,sí,sí,1
+main_90_v1,pi05_droid,C05_CANONICAL,canonical,move the white cylinder to the right-hand side of the yellow zone,sí,white_cylinder->yellow_zone,orange_cube->yellow_zone,no,right,,no,,no,1
+main_90_v1,pi05_droid,C05_OBJECT_ALIAS,object_alias,move the white cylindrical object to the right-hand side of the yellow zone,sí,white_cylinder->yellow_zone,orange_cube->yellow_zone,no,right,,no,,no,0
+main_90_v1,pi05_droid,C05_RELATION_ALIAS,relation_alias,place the white cylinder on the right side of the yellow area,sí,white_cylinder->yellow_zone,white_cylinder->blue_zone,no,right,,no,,no,1
+main_90_v1,pi05_droid,C05_TARGET_ALIAS,target_alias,move the white cylinder to the right of the yellow target area,sí,white_cylinder->yellow_zone,orange_cube->yellow_zone,no,right,,no,,no,1
+main_90_v1,pi05_droid,C05_LEFT_CONTROL,direction_control,move the white cylinder to the left side of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->blue_zone,no,left,,no,,no,1
+main_90_v1,pi05_droid,C06_CANONICAL,canonical,place the orange die near the rear side of the yellow area,sí,orange_cube->yellow_zone,orange_cube->yellow_zone,sí,back,,no,,no,0
+main_90_v1,pi05_droid,C06_OBJECT_ALIAS,object_alias,place the orange cube near the rear side of the yellow area,sí,orange_cube->yellow_zone,white_cylinder->yellow_zone,no,back,,no,,no,1
+main_90_v1,pi05_droid,C06_RELATION_ALIAS,relation_alias,move the orange die to the back side of the yellow zone,sí,orange_cube->yellow_zone,orange_cube->yellow_zone,sí,back,,no,,no,0
+main_90_v1,pi05_droid,C06_TARGET_ALIAS,target_alias,place the orange cube near the back side of the yellow target area,sí,orange_cube->yellow_zone,orange_cube->yellow_zone,sí,back,,no,,no,0
+main_90_v1,pi05_droid,C06_FRONT_CONTROL,direction_control,place the orange die near the front side of the yellow area,sí,orange_cube->yellow_zone,white_cylinder->yellow_zone,no,front,,no,,no,1
+main_90_v1,openvla,C01_CANONICAL,canonical,put the white cylinder in the center of the blue zone,sí,white_cylinder->blue_zone,white_cylinder->blue_zone,sí,center,,no,,no,0
+main_90_v1,openvla,C01_PARAPHRASE,combined_alias,move the white cylindrical object to the middle of the blue area,sí,white_cylinder->blue_zone,,no,center,,no,,no,1
+main_90_v1,openvla,C01_COMMAND_ALIAS,command_alias,place the white cylinder at the centre of the blue target area,sí,white_cylinder->blue_zone,white_cylinder->blue_zone,sí,center,,no,,no,0
+main_90_v1,openvla,NEG_AMBIGUOUS_TARGET,ambiguous,put the white cylinder in the zone,no,,,,,,,sí,sí,1
+main_90_v1,openvla,NEG_UNSUPPORTED_TARGET,unsupported,put the white cylinder in the green zone,no,,,,,,,sí,sí,1
+main_90_v1,openvla,C02_CANONICAL,canonical,put the white cylinder on the left side of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,left,,no,,no,0
+main_90_v1,openvla,C02_OBJECT_ALIAS,object_alias,put the cylindrical white object on the left side of the yellow zone,sí,white_cylinder->yellow_zone,,no,left,,no,,no,1
+main_90_v1,openvla,C02_RELATION_ALIAS,relation_alias,place the white cylinder on the left-hand side of the yellow area,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,left,,no,,no,0
+main_90_v1,openvla,C02_TARGET_ALIAS,target_alias,move the white cylinder to the left of the yellow target area,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,left,,no,,no,0
+main_90_v1,openvla,C02_RIGHT_CONTROL,direction_control,put the white cylinder on the right side of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,right,,sí,,sí,0
+main_90_v1,openvla,C03_CANONICAL,canonical,place the orange cube inside the right side of the blue zone,sí,orange_cube->blue_zone,orange_cube->blue_zone,sí,right,,no,,no,0
+main_90_v1,openvla,C03_OBJECT_ALIAS,object_alias,place the orange block inside the right side of the blue zone,sí,orange_cube->blue_zone,,no,right,,no,,no,1
+main_90_v1,openvla,C03_RELATION_ALIAS,relation_alias,move the orange cube into the right-hand side of the blue area,sí,orange_cube->blue_zone,orange_cube->blue_zone,sí,right,,no,,no,0
+main_90_v1,openvla,C03_TARGET_ALIAS,target_alias,put the orange cube on the right side of the blue target area,sí,orange_cube->blue_zone,orange_cube->blue_zone,sí,right,,sí,,sí,0
+main_90_v1,openvla,C03_LEFT_CONTROL,direction_control,place the orange cube inside the left side of the blue zone,sí,orange_cube->blue_zone,orange_cube->blue_zone,sí,left,,no,,no,0
+main_90_v1,openvla,C04_CANONICAL,canonical,put the orange cube in the blue zone,sí,orange_cube->blue_zone,orange_cube->blue_zone,sí,,,sí,,sí,0
+main_90_v1,openvla,C04_PARAPHRASE,combined_alias,move the orange block into the blue area,sí,orange_cube->blue_zone,,no,,,sí,,no,1
+main_90_v1,openvla,C04_TARGET_ALIAS,target_alias,put the orange die inside the blue target area,sí,orange_cube->blue_zone,orange_cube->blue_zone,sí,,,sí,,sí,0
+main_90_v1,openvla,NEG_AMBIGUOUS_OBJECT,ambiguous,put the object in the blue zone,no,,,,,,,sí,sí,1
+main_90_v1,openvla,NEG_UNSUPPORTED_OBJECT,unsupported,put the purple cube in the blue zone,no,,,,,,,sí,sí,1
+main_90_v1,openvla,C05_CANONICAL,canonical,move the white cylinder to the right-hand side of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,right,,sí,,sí,0
+main_90_v1,openvla,C05_OBJECT_ALIAS,object_alias,move the white cylindrical object to the right-hand side of the yellow zone,sí,white_cylinder->yellow_zone,,no,right,,no,,no,1
+main_90_v1,openvla,C05_RELATION_ALIAS,relation_alias,place the white cylinder on the right side of the yellow area,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,right,,sí,,sí,0
+main_90_v1,openvla,C05_TARGET_ALIAS,target_alias,move the white cylinder to the right of the yellow target area,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,right,,no,,no,0
+main_90_v1,openvla,C05_LEFT_CONTROL,direction_control,move the white cylinder to the left side of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,left,,no,,no,0
+main_90_v1,openvla,C06_CANONICAL,canonical,place the orange die near the rear side of the yellow area,sí,orange_cube->yellow_zone,orange_cube->yellow_zone,sí,back,,no,,no,0
+main_90_v1,openvla,C06_OBJECT_ALIAS,object_alias,place the orange cube near the rear side of the yellow area,sí,orange_cube->yellow_zone,orange_cube->yellow_zone,sí,back,,no,,no,0
+main_90_v1,openvla,C06_RELATION_ALIAS,relation_alias,move the orange die to the back side of the yellow zone,sí,orange_cube->yellow_zone,orange_cube->yellow_zone,sí,back,,no,,no,0
+main_90_v1,openvla,C06_TARGET_ALIAS,target_alias,place the orange cube near the back side of the yellow target area,sí,orange_cube->yellow_zone,orange_cube->yellow_zone,sí,back,,no,,no,0
+main_90_v1,openvla,C06_FRONT_CONTROL,direction_control,place the orange die near the front side of the yellow area,sí,orange_cube->yellow_zone,orange_cube->yellow_zone,sí,front,,no,,no,0
+extension_case07_case10_v2,pi0_droid,CASE07_CANONICAL,canonical,place the white cylinder near the front side of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,front,,,,no,0
+extension_case07_case10_v2,pi0_droid,CASE07_OBJECT_ALIAS,object_alias,place the cylindrical white object near the front side of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,front,,,,no,0
+extension_case07_case10_v2,pi0_droid,CASE07_TARGET_ALIAS,target_alias,place the white cylinder near the front side of the yellow target area,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,front,,,,no,0
+extension_case07_case10_v2,pi0_droid,CASE07_RELATION_ALIAS,relation_alias,place the white cylinder near the front edge of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,front,,,,no,0
+extension_case07_case10_v2,pi0_droid,CASE07_AMBIGUOUS_OBJECT,ambiguous,place the object near the front side of the yellow zone,no,,white_cylinder->yellow_zone,,front,,,,no,0
+extension_case07_case10_v2,pi0_droid,CASE08_CANONICAL,canonical,place the white cylindrical object inside the right side of the yellow target area,sí,white_cylinder->yellow_zone,orange_cube->yellow_zone,no,right,,no,,no,1
+extension_case07_case10_v2,pi0_droid,CASE08_OBJECT_ALIAS,object_alias,place the white cylinder inside the right side of the yellow target area,sí,white_cylinder->yellow_zone,orange_cube->yellow_zone,no,right,,no,,no,1
+extension_case07_case10_v2,pi0_droid,CASE08_TARGET_ALIAS,target_alias,place the white cylindrical object inside the right side of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,right,,,,no,0
+extension_case07_case10_v2,pi0_droid,CASE08_RELATION_ALIAS,relation_alias,place the white cylindrical object inside the right-hand side of the yellow target area,sí,white_cylinder->yellow_zone,orange_cube->blue_zone,no,right,,no,,no,1
+extension_case07_case10_v2,pi0_droid,CASE08_AMBIGUOUS_TARGET,ambiguous,place the white cylindrical object inside the right side of the target area,no,,white_cylinder->yellow_zone,,right,,,,no,0
+extension_case07_case10_v2,pi0_droid,CASE09_CANONICAL,canonical,place the orange block near the back side of the blue target area,sí,orange_cube->blue_zone,orange_cube->blue_zone,sí,back,,,,no,0
+extension_case07_case10_v2,pi0_droid,CASE09_OBJECT_ALIAS,object_alias,place the orange cube near the back side of the blue target area,sí,orange_cube->blue_zone,orange_cube->blue_zone,sí,back,,,,no,0
+extension_case07_case10_v2,pi0_droid,CASE09_TARGET_ALIAS,target_alias,place the orange block near the back side of the blue zone,sí,orange_cube->blue_zone,orange_cube->blue_zone,sí,back,,,,no,0
+extension_case07_case10_v2,pi0_droid,CASE09_RELATION_ALIAS,relation_alias,place the orange block near the rear side of the blue target area,sí,orange_cube->blue_zone,orange_cube->blue_zone,sí,back,,,,no,0
+extension_case07_case10_v2,pi0_droid,CASE09_AMBIGUOUS_OBJECT,ambiguous,place the object near the back side of the blue target area,no,,orange_cube->blue_zone,,back,,,,no,0
+extension_case07_case10_v2,pi0_droid,CASE10_CANONICAL,canonical,place the cylindrical white object near the back side of the blue region,sí,white_cylinder->blue_zone,white_cylinder->blue_zone,sí,back,,,,no,0
+extension_case07_case10_v2,pi0_droid,CASE10_OBJECT_ALIAS,object_alias,place the white cylinder near the back side of the blue region,sí,white_cylinder->blue_zone,white_cylinder->blue_zone,sí,back,,,,no,0
+extension_case07_case10_v2,pi0_droid,CASE10_TARGET_ALIAS,target_alias,place the cylindrical white object near the back side of the blue zone,sí,white_cylinder->blue_zone,white_cylinder->blue_zone,sí,back,,,,no,0
+extension_case07_case10_v2,pi0_droid,CASE10_RELATION_ALIAS,relation_alias,place the cylindrical white object near the rear side of the blue region,sí,white_cylinder->blue_zone,orange_cube->yellow_zone,no,back,,no,,no,1
+extension_case07_case10_v2,pi0_droid,CASE10_AMBIGUOUS_TARGET,ambiguous,place the cylindrical white object near the back side of the zone,no,,white_cylinder->blue_zone,,back,,,,no,0
+extension_case07_case10_v2,pi05_droid,CASE07_CANONICAL,canonical,place the white cylinder near the front side of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->blue_zone,no,front,,no,,no,1
+extension_case07_case10_v2,pi05_droid,CASE07_OBJECT_ALIAS,object_alias,place the cylindrical white object near the front side of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->blue_zone,no,front,,no,,no,1
+extension_case07_case10_v2,pi05_droid,CASE07_TARGET_ALIAS,target_alias,place the white cylinder near the front side of the yellow target area,sí,white_cylinder->yellow_zone,white_cylinder->blue_zone,no,front,,no,,no,1
+extension_case07_case10_v2,pi05_droid,CASE07_RELATION_ALIAS,relation_alias,place the white cylinder near the front edge of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->blue_zone,no,front,,no,,no,1
+extension_case07_case10_v2,pi05_droid,CASE07_AMBIGUOUS_OBJECT,ambiguous,place the object near the front side of the yellow zone,no,,orange_cube->blue_zone,,front,,,,no,1
+extension_case07_case10_v2,pi05_droid,CASE08_CANONICAL,canonical,place the white cylindrical object inside the right side of the yellow target area,sí,white_cylinder->yellow_zone,orange_cube->blue_zone,no,right,,no,,no,1
+extension_case07_case10_v2,pi05_droid,CASE08_OBJECT_ALIAS,object_alias,place the white cylinder inside the right side of the yellow target area,sí,white_cylinder->yellow_zone,orange_cube->blue_zone,no,right,,no,,no,1
+extension_case07_case10_v2,pi05_droid,CASE08_TARGET_ALIAS,target_alias,place the white cylindrical object inside the right side of the yellow zone,sí,white_cylinder->yellow_zone,orange_cube->blue_zone,no,right,,no,,no,1
+extension_case07_case10_v2,pi05_droid,CASE08_RELATION_ALIAS,relation_alias,place the white cylindrical object inside the right-hand side of the yellow target area,sí,white_cylinder->yellow_zone,orange_cube->blue_zone,no,right,,no,,no,1
+extension_case07_case10_v2,pi05_droid,CASE08_AMBIGUOUS_TARGET,ambiguous,place the white cylindrical object inside the right side of the target area,no,,orange_cube->blue_zone,,right,,,,no,1
+extension_case07_case10_v2,pi05_droid,CASE09_CANONICAL,canonical,place the orange block near the back side of the blue target area,sí,orange_cube->blue_zone,orange_cube->yellow_zone,no,back,,no,,no,1
+extension_case07_case10_v2,pi05_droid,CASE09_OBJECT_ALIAS,object_alias,place the orange cube near the back side of the blue target area,sí,orange_cube->blue_zone,orange_cube->yellow_zone,no,back,,no,,no,1
+extension_case07_case10_v2,pi05_droid,CASE09_TARGET_ALIAS,target_alias,place the orange block near the back side of the blue zone,sí,orange_cube->blue_zone,white_cylinder->blue_zone,no,back,,no,,no,1
+extension_case07_case10_v2,pi05_droid,CASE09_RELATION_ALIAS,relation_alias,place the orange block near the rear side of the blue target area,sí,orange_cube->blue_zone,orange_cube->yellow_zone,no,back,,no,,no,1
+extension_case07_case10_v2,pi05_droid,CASE09_AMBIGUOUS_OBJECT,ambiguous,place the object near the back side of the blue target area,no,,white_cylinder->blue_zone,,back,,,,no,0
+extension_case07_case10_v2,pi05_droid,CASE10_CANONICAL,canonical,place the cylindrical white object near the back side of the blue region,sí,white_cylinder->blue_zone,white_cylinder->blue_zone,sí,back,,,,no,0
+extension_case07_case10_v2,pi05_droid,CASE10_OBJECT_ALIAS,object_alias,place the white cylinder near the back side of the blue region,sí,white_cylinder->blue_zone,white_cylinder->blue_zone,sí,back,,,,no,0
+extension_case07_case10_v2,pi05_droid,CASE10_TARGET_ALIAS,target_alias,place the cylindrical white object near the back side of the blue zone,sí,white_cylinder->blue_zone,white_cylinder->blue_zone,sí,back,,,,no,0
+extension_case07_case10_v2,pi05_droid,CASE10_RELATION_ALIAS,relation_alias,place the cylindrical white object near the rear side of the blue region,sí,white_cylinder->blue_zone,orange_cube->yellow_zone,no,back,,no,,no,1
+extension_case07_case10_v2,pi05_droid,CASE10_AMBIGUOUS_TARGET,ambiguous,place the cylindrical white object near the back side of the zone,no,,white_cylinder->blue_zone,,back,,,,no,0
+extension_case07_case10_v2,openvla,CASE07_CANONICAL,canonical,place the white cylinder near the front side of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,front,,,,no,0
+extension_case07_case10_v2,openvla,CASE07_OBJECT_ALIAS,object_alias,place the cylindrical white object near the front side of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,front,,,,no,0
+extension_case07_case10_v2,openvla,CASE07_TARGET_ALIAS,target_alias,place the white cylinder near the front side of the yellow target area,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,front,,,,no,0
+extension_case07_case10_v2,openvla,CASE07_RELATION_ALIAS,relation_alias,place the white cylinder near the front edge of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,front,,,,no,0
+extension_case07_case10_v2,openvla,CASE07_AMBIGUOUS_OBJECT,ambiguous,place the object near the front side of the yellow zone,no,,,,front,,,sí,sí,1
+extension_case07_case10_v2,openvla,CASE08_CANONICAL,canonical,place the white cylindrical object inside the right side of the yellow target area,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,right,,,,no,0
+extension_case07_case10_v2,openvla,CASE08_OBJECT_ALIAS,object_alias,place the white cylinder inside the right side of the yellow target area,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,right,,,,no,0
+extension_case07_case10_v2,openvla,CASE08_TARGET_ALIAS,target_alias,place the white cylindrical object inside the right side of the yellow zone,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,right,,,,no,0
+extension_case07_case10_v2,openvla,CASE08_RELATION_ALIAS,relation_alias,place the white cylindrical object inside the right-hand side of the yellow target area,sí,white_cylinder->yellow_zone,white_cylinder->yellow_zone,sí,right,,,,no,0
+extension_case07_case10_v2,openvla,CASE08_AMBIGUOUS_TARGET,ambiguous,place the white cylindrical object inside the right side of the target area,no,,,,right,,,sí,sí,1
+extension_case07_case10_v2,openvla,CASE09_CANONICAL,canonical,place the orange block near the back side of the blue target area,sí,orange_cube->blue_zone,orange_cube->blue_zone,sí,back,,,,no,0
+extension_case07_case10_v2,openvla,CASE09_OBJECT_ALIAS,object_alias,place the orange cube near the back side of the blue target area,sí,orange_cube->blue_zone,orange_cube->blue_zone,sí,back,,,,no,0
+extension_case07_case10_v2,openvla,CASE09_TARGET_ALIAS,target_alias,place the orange block near the back side of the blue zone,sí,orange_cube->blue_zone,orange_cube->blue_zone,sí,back,,,,no,0
+extension_case07_case10_v2,openvla,CASE09_RELATION_ALIAS,relation_alias,place the orange block near the rear side of the blue target area,sí,orange_cube->blue_zone,orange_cube->blue_zone,sí,back,,,,no,0
+extension_case07_case10_v2,openvla,CASE09_AMBIGUOUS_OBJECT,ambiguous,place the object near the back side of the blue target area,no,,,,back,,,sí,sí,1
+extension_case07_case10_v2,openvla,CASE10_CANONICAL,canonical,place the cylindrical white object near the back side of the blue region,sí,white_cylinder->blue_zone,white_cylinder->blue_zone,sí,back,,,,no,0
+extension_case07_case10_v2,openvla,CASE10_OBJECT_ALIAS,object_alias,place the white cylinder near the back side of the blue region,sí,white_cylinder->blue_zone,white_cylinder->blue_zone,sí,back,,,,no,0
+extension_case07_case10_v2,openvla,CASE10_TARGET_ALIAS,target_alias,place the cylindrical white object near the back side of the blue zone,sí,white_cylinder->blue_zone,white_cylinder->blue_zone,sí,back,,,,no,0
+extension_case07_case10_v2,openvla,CASE10_RELATION_ALIAS,relation_alias,place the cylindrical white object near the rear side of the blue region,sí,white_cylinder->blue_zone,white_cylinder->blue_zone,sí,back,,,,no,0
+extension_case07_case10_v2,openvla,CASE10_AMBIGUOUS_TARGET,ambiguous,place the cylindrical white object near the back side of the zone,no,,,,back,,,sí,sí,1

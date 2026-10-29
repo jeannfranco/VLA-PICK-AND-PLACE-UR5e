@@ -1,0 +1,37 @@
+caso,layout,modelo,prueba,tipo_instruccion,tipo_objeto,instruccion,objeto_esperado,destino_esperado,resultado,grounding_correcto,ejecucion_intentada,colocacion_correcta,cumplimiento_estricto,etapa_fallo
+CASE_01,1,openvla,cubo_forma,implicit,cube,put the orange cube in the container that matches its shape,orange_cube,square_box,SUCCESS,sí,sí,sí,sí,
+CASE_02,1,openvla,cubo_explicito,explicit,cube,put the orange cube in the square box,orange_cube,square_box,FAIL_PLACE,sí,sí,no,no,place
+CASE_03,1,openvla,cilindro_forma,implicit,cylinder,put the white cylinder in the container that matches its shape,white_cylinder,circular_box,FAIL_GROUNDING,no,no,no,no,grounding
+CASE_04,1,openvla,cilindro_explicito,explicit,cylinder,put the white cylinder in the circular box,white_cylinder,circular_box,SUCCESS,sí,sí,sí,sí,
+CASE_05,1,pi0_droid,cubo_forma,implicit,cube,put the orange cube in the container that matches its shape,orange_cube,square_box,FAIL_GROUNDING,no,no,no,no,grounding
+CASE_06,1,pi0_droid,cubo_explicito,explicit,cube,put the orange cube in the square box,orange_cube,square_box,FAIL_GROUNDING,no,no,no,no,grounding
+CASE_07,1,pi0_droid,cilindro_forma,implicit,cylinder,put the white cylinder in the container that matches its shape,white_cylinder,circular_box,FAIL_GROUNDING,no,no,no,no,grounding
+CASE_08,1,pi0_droid,cilindro_explicito,explicit,cylinder,put the white cylinder in the circular box,white_cylinder,circular_box,SUCCESS,sí,sí,sí,sí,
+CASE_09,1,pi05_droid,cubo_forma,implicit,cube,put the orange cube in the container that matches its shape,orange_cube,square_box,FAIL_GROUNDING,no,no,no,no,grounding
+CASE_10,1,pi05_droid,cubo_explicito,explicit,cube,put the orange cube in the square box,orange_cube,square_box,FAIL_GROUNDING,no,no,no,no,grounding
+CASE_11,1,pi05_droid,cilindro_forma,implicit,cylinder,put the white cylinder in the container that matches its shape,white_cylinder,circular_box,FAIL_GROUNDING,no,no,no,no,grounding
+CASE_12,1,pi05_droid,cilindro_explicito,explicit,cylinder,put the white cylinder in the circular box,white_cylinder,circular_box,SUCCESS,sí,sí,sí,sí,
+CASE_13,2,openvla,cubo_forma,implicit,cube,put the orange cube in the container that matches its shape,orange_cube,square_box,SUCCESS,sí,sí,sí,sí,
+CASE_14,2,openvla,cubo_explicito,explicit,cube,put the orange cube in the square box,orange_cube,square_box,SUCCESS,sí,sí,sí,sí,
+CASE_15,2,openvla,cilindro_forma,implicit,cylinder,put the white cylinder in the container that matches its shape,white_cylinder,circular_box,SUCCESS,sí,sí,sí,sí,
+CASE_16,2,openvla,cilindro_explicito,explicit,cylinder,put the white cylinder in the circular box,white_cylinder,circular_box,SUCCESS,sí,sí,sí,sí,
+CASE_17,2,pi0_droid,cubo_forma,implicit,cube,put the orange cube in the container that matches its shape,orange_cube,square_box,FAIL_GROUNDING,no,no,no,no,grounding
+CASE_18,2,pi0_droid,cubo_explicito,explicit,cube,put the orange cube in the square box,orange_cube,square_box,FAIL_GROUNDING,no,no,no,no,grounding
+CASE_19,2,pi0_droid,cilindro_forma,implicit,cylinder,put the white cylinder in the container that matches its shape,white_cylinder,circular_box,FAIL_PLACE,sí,sí,no,no,place
+CASE_20,2,pi0_droid,cilindro_explicito,explicit,cylinder,put the white cylinder in the circular box,white_cylinder,circular_box,FAIL_GROUNDING,no,no,no,no,grounding
+CASE_21,2,pi05_droid,cubo_forma,implicit,cube,put the orange cube in the container that matches its shape,orange_cube,square_box,FAIL_GROUNDING,no,no,no,no,grounding
+CASE_22,2,pi05_droid,cubo_explicito,explicit,cube,put the orange cube in the square box,orange_cube,square_box,FAIL_GROUNDING,no,no,no,no,grounding
+CASE_23,2,pi05_droid,cilindro_forma,implicit,cylinder,put the white cylinder in the container that matches its shape,white_cylinder,circular_box,FAIL_PLACE,sí,sí,no,no,place
+CASE_24,2,pi05_droid,cilindro_explicito,explicit,cylinder,put the white cylinder in the circular box,white_cylinder,circular_box,SUCCESS,sí,sí,sí,sí,
+CASE_25,3,openvla,cubo_forma,implicit,cube,put the orange cube in the container that matches its shape,orange_cube,square_box,SUCCESS,sí,sí,sí,sí,
+CASE_26,3,openvla,cubo_explicito,explicit,cube,put the orange cube in the square box,orange_cube,square_box,FAIL_PLACE,sí,sí,no,no,place
+CASE_27,3,openvla,cilindro_forma,implicit,cylinder,put the white cylinder in the container that matches its shape,white_cylinder,circular_box,FAIL_PLACE,sí,sí,no,no,place
+CASE_28,3,openvla,cilindro_explicito,explicit,cylinder,put the white cylinder in the circular box,white_cylinder,circular_box,SUCCESS,sí,sí,sí,sí,
+CASE_29,3,pi0_droid,cubo_forma,implicit,cube,put the orange cube in the container that matches its shape,orange_cube,square_box,FAIL_GROUNDING,no,no,no,no,grounding
+CASE_30,3,pi0_droid,cubo_explicito,explicit,cube,put the orange cube in the square box,orange_cube,square_box,FAIL_RETREAT_AFTER_SUCCESSFUL_PLACE,sí,sí,sí,no,retreat
+CASE_31,3,pi0_droid,cilindro_forma,implicit,cylinder,put the white cylinder in the container that matches its shape,white_cylinder,circular_box,SUCCESS,sí,sí,sí,sí,
+CASE_32,3,pi0_droid,cilindro_explicito,explicit,cylinder,put the white cylinder in the circular box,white_cylinder,circular_box,SUCCESS,sí,sí,sí,sí,
+CASE_33,3,pi05_droid,cubo_forma,implicit,cube,put the orange cube in the container that matches its shape,orange_cube,square_box,FAIL_GROUNDING,no,no,no,no,grounding
+CASE_34,3,pi05_droid,cubo_explicito,explicit,cube,put the orange cube in the square box,orange_cube,square_box,FAIL_GROUNDING,no,no,no,no,grounding
+CASE_35,3,pi05_droid,cilindro_forma,implicit,cylinder,put the white cylinder in the container that matches its shape,white_cylinder,circular_box,FAIL_GROUNDING,no,no,no,no,grounding
+CASE_36,3,pi05_droid,cilindro_explicito,explicit,cylinder,put the white cylinder in the circular box,white_cylinder,circular_box,FAIL_GROUNDING,no,no,no,no,grounding

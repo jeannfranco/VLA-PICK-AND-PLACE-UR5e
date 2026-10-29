@@ -1,0 +1,5 @@
+caso,instruccion,pareja_esperada,pareja_seleccionada,relacion_esperada,relacion_obtenida,pareja_correcta,relacion_correcta,resultado
+CASE_07,place the white cylinder near the front side of the yellow zone,white_cylinder->yellow_zone,white_cylinder->yellow_zone,front,front_right_edge,sí,sí,PASS
+CASE_08,place the white cylindrical object inside the right side of the yellow target area,white_cylinder->yellow_zone,orange_cube->yellow_zone,right,,no,no,FAIL_GROUNDING
+CASE_09,place the orange block near the back side of the blue target area,orange_cube->blue_zone,orange_cube->blue_zone,back,back_right_edge,sí,sí,PASS
+CASE_10,place the cylindrical white object near the back side of the blue region,white_cylinder->blue_zone,orange_cube->blue_zone,back,,no,no,FAIL_GROUNDING
